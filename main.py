@@ -1,3 +1,6 @@
+"""
+To add time delays in project
+"""
 import time
 from decimal import Decimal, ROUND_DOWN
 fuelregions = ["1: London", "2: Northern Ireland",  "3: Wales", "4: Scotland", "5: South West", "6: South East", "7: East of England", "8: East Midlands",  "9: West Midlands", "10: Yorkshire and the Humber", "11: North East", "12: North West"]
