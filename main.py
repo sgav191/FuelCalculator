@@ -4,7 +4,7 @@ To add time delays in project
 import time
 from decimal import Decimal, ROUND_DOWN
 fuelregions = ["1: London", "2: Northern Ireland",  "3: Wales", "4: Scotland", "5: South West", "6: South East", "7: East of England", "8: East Midlands",  "9: West Midlands", "10: Yorkshire and the Humber", "11: North East", "12: North West"]
-fuelprices = [[142, 145, 154], [140, 142, 150], [141, 145, 150], [141, 145, 150], [142, 145, 151], [142, 146, 153], [142, 145, 152], [141, 145, 153], [141, 145, 152], [141, 145, 151], [140, 144, 152], [141, 145, 152]]
+fuelprices = [[142, 145, 154], [140, 142, 150], [141, 145, 150], [141, 145, 150], [142, 145, 162], [142, 146, 153], [142, 145, 152], [141, 145, 153], [141, 145, 152], [141, 145, 151], [140, 144, 152], [141, 145, 152]]
 
 print("Hello and welcome to FUELCALC-2.0!")
 time.sleep(1)
