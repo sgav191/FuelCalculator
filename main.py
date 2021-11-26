@@ -24,7 +24,7 @@ print("""Choose from the list:
 userfuelchoice = int(input("Please type your answer here: "))
 userfuelchoice = userfuelchoice-1
 userfuelrate = fuelprices[userregionchoice][userfuelchoice]
-userfuelquantity = int(input("How much fuel do you want,  in litres: "))
+userfuelquantity = int(input("How much fuel do you want, in litres: "))
 userfuelprice = (userfuelrate*userfuelquantity)/100
 userfuelprice = Decimal(userfuelprice).quantize(Decimal('.01'),  rounding=ROUND_DOWN)
 print(f"""Your fuel price is:
